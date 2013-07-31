@@ -1,7 +1,7 @@
 map = }{!}fmt}
 map + }{!}fmt -p '> '}
 set showmatch
-set ts=2
+set ts=4
 
 set nocompatible                " choose no compatibility with legacy vi
 syntax enable
@@ -23,3 +23,9 @@ set hlsearch                    " highlight matches
 set incsearch                   " incremental searching
 set ignorecase                  " searches are case insensitive...
 set smartcase  
+
+set smartindent
+set shiftwidth=4
+set expandtab
+set mouse=a
+
